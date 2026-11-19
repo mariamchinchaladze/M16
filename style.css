@@ -1,0 +1,364 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header {
+    padding: 25px 25px;
+    border-bottom: 1px solid white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+.btn1 {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.div1 {
+    width: 50%;
+}
+
+.div1 h1 {
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+
+.div1 p {
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 80px;
+    gap: 60px;
+}
+.section1 img {
+    width: 45%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.div2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.div2 h3 {
+    font-size: 15px;
+    color: gray;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    color: black;
+    background-color: rgb(184, 180, 180);
+    padding: 70px 70px;
+}
+
+.div3 {
+    flex: 1;
+}
+.div33{
+    display: flex;
+    gap: 10px;
+}
+
+.div3 div div {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.black {
+    width: 35px;
+    height: 35px;
+    background-color: black;
+    border-radius: 50px;
+}
+
+.div3 h2 {
+    font-size: 20px;
+    color: black;
+}
+.section3 img {
+    width: 45%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.div3 p {
+    color: black;
+}
+
+.section3 {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 90px 90px;
+    background-color: black;
+    color: white;
+}
+
+.div4 {
+    flex: 1;
+}
+
+.div4 h2 {
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+.div4 p {
+    color: gray;
+    margin-bottom: 25px;
+}
+
+.section4 > div {
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(184, 180, 180);
+    border-radius: 10px;
+}
+
+.section4 p {
+    font-size: 17px;
+    margin-bottom: 25px;
+}
+
+.div4 ul {
+    padding-left: 20px;
+}
+
+.section4 {
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+    gap: 30px;
+    padding: 90px 60px;
+}
+
+.img3 {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.section4 h3 {
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+.section4 h4 {
+    font-size: 13px;
+    color: gray;
+    font-weight: normal;
+}
+
+.section5 {
+    background-image: url("./8ace0c95d4b01e95bd5f617f0147062338f3b732.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 110px 35px;
+    color: white;
+    position: relative;
+}
+
+.section5 p {
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.section5 h1 {
+    font-size: 42px;
+    max-width: 650px;
+    margin: 0 auto 30px;
+}
+
+.btn2 {
+    padding: 15px 40px;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+@media (max-width: 1024px) {
+
+    .section1 {
+        padding: 50px 40px;
+        gap: 30px;
+    }
+
+    .div1 h1 {
+        font-size: 35px;
+    }
+
+    .section1 img {
+        width: 45%;
+        height: 350px;
+    }
+
+    .section2 {
+        padding: 50px 35px;
+        gap: 25px;
+    }
+
+    .div3 h2 {
+        font-size: 17px;
+    }
+
+    .section3 {
+        padding: 60px 40px;
+        gap: 40px;
+    }
+
+    .section3 img {
+        height: 350px;
+    }
+
+    .div4 h2 {
+        font-size: 27px;
+    }
+
+    .section4 {
+        padding: 60px 35px;
+        gap: 15px;
+    }
+
+    .section4 > div {
+        padding: 20px 15px;
+    }
+
+    .section5 h1 {
+        font-size: 35px;
+    }
+}  
+
+@media (max-width: 744px) {
+
+    header {
+        padding: 20px;
+    }
+
+    nav {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    nav a {
+        font-size: 13px;
+    }
+
+    .btn1 {
+        padding: 10px 20px;
+    }
+
+    .section1 {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .div1 {
+        width: 100%;
+    }
+
+    .div1 h1 {
+        font-size: 32px;
+    }
+
+    .div2 {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .section1 img {
+        width: 100%;
+        height: 280px;
+    }
+
+    .section2 {
+        flex-direction: column;
+        padding: 40px 25px;
+        gap: 35px;
+    }
+
+    .section3 {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 30px;
+    }
+
+    .section3 img {
+        width: 100%;
+        height: 280px;
+    }
+
+    .div4 h2 {
+        font-size: 27px;
+    }
+
+    .section4 {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 25px;
+    }
+
+    .section4 > div {
+        width: auto;
+        padding: 25px;
+    }
+
+    .section5 {
+        padding: 70px 20px;
+    }
+
+    .section5 h1 {
+        font-size: 30px;
+    }
+
+    .btn2 {
+        padding: 13px 35px;
+    }
+}
